@@ -18,11 +18,12 @@ GitHub Organization.
     + Tmax = `minute`[which.max(`value`)]
     + HalfLife = `half`(Tmax, `minute`, `value`)
 - How is `HalfLife` calculated?
-  + See function `half()` in [foundr/area_under_curve.R](https://github.com/AttieLab-Systems-Genetics/foundr/blob/main/R/area_under_curve.R)
   + Take `log2()` of `value`
   + Fit a regression line to `log2(value)`
   + Find time when line drops `2` units from time `0`, which is at `-1/slope`
+  + See function `half()` in [foundr/area_under_curve.R](https://github.com/AttieLab-Systems-Genetics/foundr/blob/main/R/area_under_curve.R)
 - How is `Slope` calculated?
   + Fit a regression line to `value`
   + Report the `slope`
+  + See function `slope()` in [foundr/area_under_curve.R](https://github.com/AttieLab-Systems-Genetics/foundr/blob/main/R/area_under_curve.R)
   
