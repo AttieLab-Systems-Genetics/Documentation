@@ -1,6 +1,7 @@
 # Documentation
 Documentation for Software Activities
 
+- [FAQ](FAQ.md)
 - [Websites](Websites)
 - [Server](Server)
 - Yandell Repos
