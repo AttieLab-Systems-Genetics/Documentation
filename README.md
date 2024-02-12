@@ -1,6 +1,6 @@
 # Documentation
 Documentation for Software Activities
-- R - RStudio, RShiny, Jupter Notebooks and Galaxy
+- [R - RStudio, RShiny, Jupter Notebooks and Galaxy](Platform-Brainstorm)
 - [FAQ](FAQ.md)
 - [Websites](Websites)
 - [Server](Server)
