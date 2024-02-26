@@ -16,7 +16,10 @@ A few changes:
 
 A few known bugs:
 
-- Moving between panels wipes out your settings. Still trying to figure that out.
+- Solved panel switching that wiped out dataset choice.
+- Not sure SDs are correctly scaled for volcano plots of Stats and Contrasts.
+- Default ordering is now by `strain` but may change later to be `strain:diet` for the Diet apps;
+this has to do with removing the `signal` choice.
 
 ## Data Updates
 - Data has not been updated yet. I will update harmonized data when I have time, probably next week. This includes the plasma metabolite data provided by Qiushi and hand-curated by Mark, which is not in the Diet app yet.
