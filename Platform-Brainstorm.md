@@ -1,19 +1,22 @@
-Proposal for Integrating QTL2 with Galaxy and RStudio for Enhanced QTL Mapping Workflows
+# Proposal for Integrating QTL2 with Galaxy and RStudio for Enhanced QTL Mapping Workflows
 
 
- Technical Proposal for Integration of qtl2 with Galaxy and RStudio
+## Technical Proposal for Integration of qtl2 with Galaxy and RStudio
 
- Introduction
+### Introduction
+
 This technical proposal outlines a strategy for integrating the `qtl2` R package into our genetic research workflows, utilizing the Galaxy platform for workflow management and RStudio for advanced statistical analysis. The primary objective is to streamline the process of QTL mapping in lipid metabolism studies, leveraging mouse genetics, RNA-seq, and metabolomics data.
 
- Technical Objectives
+### Technical Objectives
+
 1. Develop Custom Galaxy Tool Wrappers for `qtl2` Functions: Facilitate the execution of `qtl2` analyses within Galaxy by developing custom tool wrappers, enabling a graphical user interface (GUI) for `qtl2` functionalities.
 2. Seamless Data Transfer Between Galaxy and RStudio: Implement a mechanism for smooth data transfer and command execution between Galaxy and RStudio, ensuring a cohesive workflow.
 3. Automate Data Preprocessing and Analysis Pipelines: Create automated pipelines for data preprocessing, analysis, and visualization, incorporating `qtl2` functions and custom scripts.
 
- System Architecture and Integration Plan
+### System Architecture and Integration Plan
 
- Galaxy Integration
+#### Galaxy Integration
+
 - Tool Wrapper Development: Utilize Galaxy's XML-based tool configuration to wrap `qtl2` functions, allowing users to input parameters and datasets through Galaxy's GUI. Each tool wrapper will correspond to a specific `qtl2` function, such as QTL mapping or imputation.
 - Interactive Visualization Integration: Embed interactive visualization tools within Galaxy, using outputs from `qtl2` analyses. This will involve developing Galaxy visualization plugins that can interpret and display `qtl2` result formats.
 
