@@ -18,6 +18,7 @@ A few known bugs:
 
 - Solved panel switching that wiped out dataset choice.
 - Not sure SDs are correctly scaled for volcano plots of Stats and Contrasts.
+- Color legend not showing on Traits panel anymore.
 - Default ordering is now by `strain` but may change later to be `strain:diet` for the Diet apps;
 this has to do with removing the `signal` choice.
 
