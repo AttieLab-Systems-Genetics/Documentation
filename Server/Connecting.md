@@ -33,6 +33,7 @@ Here are key steps to do on your VS Code relevant to the Attie Server
 - Return to `Command Palette` and click on `attie.diabetes.wisc.edu`.
 
 This should open a new window on your computer that is running on the Attie Server.
+Next time you can use the `Command Palette` or click on the `Remote Explorer` icon (`><` possibly with terminal screen) and select `attie.diabetes.wisc.edu`.
 
 ## Connect your GitHub to server
 
