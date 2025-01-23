@@ -24,6 +24,7 @@ Try reading
 but it may prove confusing.
 Here are key steps to do on your VS Code relevant to the Attie Server
 
+- Be sure you have VPN connection to biochem network.
 -  Use Extension widget on left panel to add extension
 [Remote- SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 - Use `CTRL-SHIFT-P` or menu `View -> Command Palette` and type `Remote-SSH: Connect to Host...`
