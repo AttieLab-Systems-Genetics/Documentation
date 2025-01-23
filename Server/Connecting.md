@@ -17,7 +17,7 @@ Your password is the same as your wisc password.
 
 If you are having issues, make sure you are connected to the network and are apart of the manifest group.
 
-## Connect your VS Code to Server
+## Connect your VS Code to server
 
 Try reading
 [Remote development over SSH](https://code.visualstudio.com/docs/remote/ssh-tutorial)
@@ -33,3 +33,11 @@ Here are key steps to do on your VS Code relevant to the Attie Server
 - Return to `Command Palette` and click on `attie.diabetes.wisc.edu`.
 
 This should open a new window on your computer that is running on the Attie Server.
+
+## Connect your GitHub to server
+
+If you are doing development with GitHub, you will need to have SSH
+connection between the server and your GitHub account.
+See instructions at
+[Generating a new SSH key and adding it to the ssh-agent (GitHub)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+They are arcane and involve several steps, but are quite doable.
