@@ -38,6 +38,11 @@ This should open a new window on your computer that is running on the Attie Serv
 
 If you are doing development with GitHub, you will need to have SSH
 connection between the server and your GitHub account.
-See instructions at
-[Generating a new SSH key and adding it to the ssh-agent (GitHub)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+There is a part you do in your home area on the server and a part you do
+on you GitHub account.
 They are arcane and involve several steps, but are quite doable.
+
+- Attie Server: See instructions at
+[Generating a new SSH key and adding it to the ssh-agent (GitHub)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+- GitHub: See instructions at
+[Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
