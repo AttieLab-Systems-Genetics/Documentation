@@ -41,6 +41,8 @@ connection between the server and your GitHub account.
 There is a part you do in your home area on the server and a part you do
 on you GitHub account.
 They are arcane and involve several steps, but are quite doable.
+Note that `pbcopy` does not seem to be on the Attie Server Linux;
+you can simply copy-and-paste the old-fashioned way.
 
 - Attie Server: See instructions at
 [Generating a new SSH key and adding it to the ssh-agent (GitHub)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
