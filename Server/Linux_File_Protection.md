@@ -5,7 +5,7 @@ that are our primary copies and that multiple people are accessing.
 These should be readable (and maybe executable) by everyone but only writeable by a select group.
 
 I don’t know how much you know about Linux groups.
-[File Permissions in Linux (FreeCodeCamp](https://www.freecodecamp.org/news/file-permissions-in-linux-how-to-use-the-chown-chgrp-command-s/)
+[File Permissions in Linux (FreeCodeCamp](https://www.freecodecamp.org/news/file-permissions-in-linux-how-to-use-the-chown-chgrp-command-s/))
 seems to be somewhat helpful, and the 
 [CoreUtils Manual](https://www.gnu.org/software/coreutils/manual/html_node/)
 seems to be comprehensive.
