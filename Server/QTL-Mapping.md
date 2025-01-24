@@ -5,7 +5,7 @@
 These notes assumes you know how to
 
 - [Connect to Attie Server via SSH](Connecting.md)
-- [Connecting to Research Drive on attie.diabetics](research-drive.md)
+- [Connecting to Research Drive on attie.diabetes](research-drive.md)
 
 This setup is for using VSCode on the Attie Server.
 Example below uses notes from
@@ -25,7 +25,7 @@ The file `config.yml` has all the setup points to all needed files and folders.
         - trait_file: `run_these_phenotypes.csv`
         - covariate_file: `use_these_covariates.csv`
         - mouse_file: `use_these_mice.csv`
-2. Attie Server: Set up local folders on the server in your home director (`~`).
+2. Attie Server: Set up local folders on the server in your home directory (`~`).
     - `/home/data/mapping_data`
         - this is already created with read-only files for all users
     - For each project, have a folder for QTL output
@@ -34,7 +34,7 @@ The file `config.yml` has all the setup points to all needed files and folders.
     - Clone one local copy of GitHub repo for local use
         - `~/qtl_mapping`: user clone of GitHub repo
         - <https://github.com/AttieLab-Systems-Genetics/qtl_mapping>
-5. Run QTL scan wrapper
+3. Run QTL scan wrapper
 [QTL_scan_wrapper.R](https://github.com/AttieLab-Systems-Genetics/qtl_mapping/blob/main/scripts/latest/QTL_scan_wrapper.R)
 from your local copy.
 
@@ -51,7 +51,7 @@ or in one line
 
 ## Symbolic Links and Home Directory
 
-Your home directory is `~` = `/home/[NetID]@ad.wisc.edu` (with `[NetID]` replaced by your NetID.
+Your home directory is `~` = `/home/[NetID]@ad.wisc.edu` (with `[NetID]` replaced by your NetID).
 You can usually use `~` as shorthand, which is helpful for scripts used across machines.
 This is where you land when you SSH to the Attie Server.
 

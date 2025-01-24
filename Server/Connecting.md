@@ -10,10 +10,10 @@ To ensure that you are connected, try pinging the server using:
 
 ## Connect to the server
 
-Connect to the server using SSH using ssh
+Connect to the server using SSH
 > `ssh [your wisc id]@wisc.edu@attie.diabetes.wisc.edu`
 
-Your password is the same as your wisc password. 
+Your password is the same as your wisc password (NetID password). 
 
 If you are having issues, make sure you are connected to the network and are apart of the manifest group.
 
@@ -25,7 +25,7 @@ but it may prove confusing.
 Here are key steps to do on your VS Code relevant to the Attie Server
 
 - Be sure you have VPN connection to biochem network.
--  Use Extension widget on left panel to add extension
+- Use Extension widget on left panel to add extension
 [Remote- SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 - Use `CTRL-SHIFT-P` or menu `View -> Command Palette` and type `Remote-SSH: Connect to Host...`
 - Click `+ Add New SSH Host...`
@@ -34,6 +34,7 @@ Here are key steps to do on your VS Code relevant to the Attie Server
 
 This should open a new window on your computer that is running on the Attie Server.
 Next time you can use the `Command Palette` or click on the `Remote Explorer` icon (`><` possibly with terminal screen) and select `attie.diabetes.wisc.edu`.
+While you are connected to the Server, you should see a blue bar at the far bottom left of the VS Code window that reads " >< SSH: attie.diabetes.wisc.edu".
 
 ## Connect your GitHub to server
 
