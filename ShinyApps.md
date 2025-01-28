@@ -36,7 +36,7 @@ and builds out to a half-dozen shiny modules in the
 [geyser/R](https://github.com/byandell/geyser/tree/main/R)
 folder,
 which can be interconnected to build more complicated apps, such as
-[inst/connect_modules/app.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/app.R)
+[geyser/inst/connect_modules/app.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/app.R)
 deployed as
 <https://connect.doit.wisc.edu/geyserDemo/>.
 For more information, see the
