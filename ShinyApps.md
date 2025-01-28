@@ -57,7 +57,7 @@ This is an R package, with each code file in the
 folder itself a shiny module with a
 server function, UI functions, and an app function.
 These ~30 shiny modules are interconnected as described in the
-[Foundr App Developer Guide](https://docs.google.com/presentation/d/171HEopFlSTtf_AbrA28YIAJxJHvkzihB4_lcV6Ct-eI),
+[Foundr App Developer Guide](https://docs.google.com/presentation/d/171HEopFlSTtf_AbrA28YIAJxJHvkzihB4_lcV6Ct-eI)
 in various ways to build the tools cited above.
 Some of those modules could be used (almost) directly for creating new shiny modules.
 For instance, the
