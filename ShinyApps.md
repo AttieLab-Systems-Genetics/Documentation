@@ -29,7 +29,11 @@ Yandell's key working repos that inform this document are
 - [Shiny app for R/qtl2](https://github.com/byandell-sysgen/qtl2shiny)
 - [Learning about Shiny Modules](https://github.com/byandell/shiny_module)
 
-These are listed in reverse chronological order.
+These are listed in reverse chronological order and described below
+
+- [geyser: modular concepts and construction](#geyser-modular-concepts-and-construction)
+- [## foundrShiny: pragmatic code reuse driven by collaborators](#foundrshiny-pragmatic-code-reuse-driven-by-collaborators)
+- [qtl2shiny: localized QTL analysis and visualization](#qtl2shiny-localized-qtl-analysis-and-visualization)
 
 ## geyser: modular concepts and construction
 
@@ -86,7 +90,7 @@ slide deck, as well as the
 There are more aspects of this package, including exploration of modular apps
 with Quarto and Python.
 
-## foundrShiny: complicated, practical app with code reuse
+## foundrShiny: pragmatic code reuse driven by collaborators
 
 The
 [foundrShiny](https://github.com/AttieLab-Systems-Genetics/foundrShiny)
@@ -120,7 +124,7 @@ There are also ideas about creating and visualizing plots and tables that could 
 Further, there was a lot of work on figuring out how to organize input parameters
 across shiny modules to share inputs without duplication of code.
 
-## qtl2shiny: more complicated app for localized QTL analysis and visualization
+## qtl2shiny: localized QTL analysis and visualization
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
