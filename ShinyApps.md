@@ -34,7 +34,7 @@ These are listed in reverse chronological order and described below
 - [geyser: modular concepts and construction](#geyser-modular-concepts-and-construction)
 - [## foundrShiny: pragmatic code reuse driven by collaborators](#foundrshiny-pragmatic-code-reuse-driven-by-collaborators)
 - [qtl2shiny: localized QTL analysis and visualization](#qtl2shiny-localized-qtl-analysis-and-visualization)
-- [shiny_module: learning about reactivity](#shiny-module-learning-about-reactivity)
+- [shiny_module: learning about reactivity](#shiny_module-learning-about-reactivity)
 
 ## geyser: modular concepts and construction
 
