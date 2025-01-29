@@ -36,12 +36,16 @@ These are listed in reverse chronological order and described below
 - [qtl2shiny: localized QTL analysis and visualization](#qtl2shiny-localized-qtl-analysis-and-visualization)
 - [shiny_module: learning about reactivity](#shiny_module-learning-about-reactivity)
 
+<hr>
+
 ## geyser: modular concepts and construction
 
-Yandell's most repo,
-[geyser](https://github.com/byandell/geyser),
-uses a simple app (Old Faithful) to illustrate the components of
-a shiny app, and how to develop more complicated apps using shiny modules.
+The
+[geyser](https://github.com/byandell/geyser)
+repo studies a simple app
+([Faithful](https://shiny.posit.co/r/gallery/start-simple/faithful))
+to illustrate the components of a shiny app,
+and how to develop more complicated apps using shiny modules.
 It starts with 
 [building one shiny module](https://github.com/byandell/geyser/tree/main/inst/build_module)
 around this classic example,
