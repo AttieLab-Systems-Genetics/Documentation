@@ -6,11 +6,14 @@ have subtle paradoxes caused by reactive elements.
 It is helpful to think carefully about how to modularize apps,
 much as we do with functions, so that we can debug piece by piece.
 
-Apps developed by [Brian Yandell](https://github.com/byandell)
-illustrate an evolution of design over time
-that make them easier
+R language apps developed by [Brian Yandell](https://github.com/byandell)
+using the
+[Shiny](https://shiny.posit.co/)
+package
+illustrate evoling design over time,
+which made the apps easier
 to use, understand and debug.
-They include some lessons learned that hopefully will
+These repos include some lessons learned that hopefully will
 help others as they design and evolve apps for this project.
 
 The best reference for building shiny apps is
@@ -28,7 +31,7 @@ Yandell's key working repos that inform this document are
 
 These are listed in reverse chronological order.
 
-## Geyser: Modular Concepts and Construction
+## geyser: modular concepts and construction
 
 Yandell's most repo,
 [geyser](https://github.com/byandell/geyser),
@@ -80,6 +83,10 @@ For more information that puts these in context, see the
 [Geyser Shiny Modules](https://connect.doit.wisc.edu/geyserShinyModules)
 slide deck, as well as the 
 [11 Dec 2024 Presentation](https://drive.google.com/file/d/1BGSIhihpBc-2TfRza5RGeXBCB55EC6-l).
+There are more aspects of this package, including exploration of modular apps
+with Quarto and Python.
+
+## foundrShiny: complicated, practical app with code reuse
 
 The
 [foundrShiny](https://github.com/AttieLab-Systems-Genetics/foundrShiny)
@@ -89,13 +96,21 @@ repo is the basis of three tools actively used by the Attie Lab
 - <https://connect.doit.wisc.edu/FounderDietStudy/> (requires password)
 - <https://connect.doit.wisc.edu/FounderLiverDietStudy/> (requires password)
 
-This is an R package, with each code file in the
+This is an R package, which depends on another R package,
+[foundr](https://github.com/AttieLab-Systems-Genetics/foundr),
+that has the data analysis details. 
+
+Each code file in the
 [founderShiny/R](https://github.com/AttieLab-Systems-Genetics/foundrShiny/tree/main/R)
-folder itself a shiny module with a
+folder itself is a shiny module with a
 server function, UI functions, and an app function.
-These ~30 shiny modules are interconnected as described in the
+These ~30 shiny modules are interconnected in various ways as described in the
 [Foundr App Developer Guide](https://docs.google.com/presentation/d/171HEopFlSTtf_AbrA28YIAJxJHvkzihB4_lcV6Ct-eI)
-in various ways to build the tools cited above.
+in order to build the tools cited above.
+This was not the first, or even the second, iteration to build these tools.
+It took about 1.5 years to develop this system, driven and guided by interactions
+with Attie Lab members about use, function, and layout.
+
 Some of those modules could be used (almost) directly for creating new shiny modules.
 For instance, the
 [download.R](https://github.com/AttieLab-Systems-Genetics/foundrShiny/blob/main/R/download.R)
@@ -104,6 +119,8 @@ arranges downloads.
 There are also ideas about creating and visualizing plots and tables that could prove useful.
 Further, there was a lot of work on figuring out how to organize input parameters
 across shiny modules to share inputs without duplication of code.
+
+## qtl2shiny: more complicated app for localized QTL analysis and visualization
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
