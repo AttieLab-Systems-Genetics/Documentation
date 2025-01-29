@@ -167,6 +167,28 @@ across shiny modules to share inputs without duplication of code.
 [foundrSetup.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundrSetup.R),
 [foundr_helpers.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr_helper.R)
 
+Several of these modules are reused.
+For instance,
+`traitNames` is used in all of the other `trait` modules once or twice,
+`contrastPlot` is used in `contrastTrait` and `stats`,
+`download` is used in each panel module
+(`trait`, `stats`, `time`, `contrasts`),
+and the parameter and plot modules are used repeatedly.
+
+The parameter modules scope inputs at different levels of the app.
+For instance, `mainPar` parameters (`dataset`, `order`, `height`) are common across many modules,
+while `panelPar` parameters (`strains`, `sex`, `facet`) are localized by panel;
+`plotPar` parameters are specific to plot modules.
+This took some careful thinking about how information is passed among modules.
+
+Note that for this app, input data are _not_ treated as global, but rather passed
+to the `foundr` module and on to each panel.
+Typically, static input data are subset to create reactive objects that are much smaller
+(focused on a particular dataset and one or a few traits) based on user input.
+
+Having this many modules was initially confusing, but they enable a developer
+to concentrate app improvement on isolated parts of the app, using each module's app
+function to do unit testing.
 
 ## qtl2shiny: localized QTL analysis and visualization
 
