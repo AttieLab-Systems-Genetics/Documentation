@@ -34,6 +34,7 @@ These are listed in reverse chronological order and described below
 - [geyser: modular concepts and construction](#geyser-modular-concepts-and-construction)
 - [## foundrShiny: pragmatic code reuse driven by collaborators](#foundrshiny-pragmatic-code-reuse-driven-by-collaborators)
 - [qtl2shiny: localized QTL analysis and visualization](#qtl2shiny-localized-qtl-analysis-and-visualization)
+- [shiny_module: learning about reactivity](#shiny-module-learning-about-reactivity)
 
 ## geyser: modular concepts and construction
 
@@ -137,6 +138,8 @@ although they do not (yet) follow the conventional naming of
 server and UI functions, and they do not have app functions.
 Nevertheless, they have many features that are being considered in current development;
 these could be usefully retooled for a modernized qtl2 shiny app.
+
+## shiny_module: learning about reactivity
 
 Finally, the
 [shiny_module](https://github.com/byandell/shiny_module)
