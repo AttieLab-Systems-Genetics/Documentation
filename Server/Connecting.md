@@ -1,5 +1,14 @@
 # Connecting Via SSH
+
+- [Get access to the manifest group](#get-access-to-the-manifest-group)
+- [Checking connection to network](#checking-connection-to-network)
+- [Connect to the server](#connect-to-the-server)
+- [Connect your VS Code to server](#connect-your-vs-code-to-server)
+- [Connect your GitHub to server](#connect-your-github-to-server)
+- [Connect R packages](#connect-r-packages)
+
 ## Get access to the manifest group
+
 You will need to be added to the **BIOC-adattie-docker-admins** group. To do the please ask a current user to add you to the manifest [here](https://manifest.services.wisc.edu/Group/Index/1b018a1e44f5492b9af50a28fb75c2ac).
 
 ## Checking connection to network
