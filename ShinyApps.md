@@ -129,17 +129,17 @@ across shiny modules to share inputs without duplication of code.
 [about.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/about.R),
 [foundr.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr.R),
 [entry.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/entry.R),
-[download.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/download.R),
+[download.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/download.R)
 - plots:
 [biplot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/biplot.R),
 [dotplot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/dotplot.R),
-[volcano.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/volcano.R),
+[volcano.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/volcano.R)
 - parameters:
 [mainPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/mainPar.R),
 [panelPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panelPar.R),
-[plotPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/plotPar.R),
+[plotPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/plotPar.R)
 - panels:
-[panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R),
+[panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R)
   - trait panel:
 [trait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/trait.R),
 [traitNames.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitNames.R),
@@ -148,24 +148,24 @@ across shiny modules to share inputs without duplication of code.
 [traitSolos.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitSolos.R),
 [traitTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitTable.R),
 [corPlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/corPlot.R),
-[corTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/corTable.R),
+[corTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/corTable.R)
   - stats panel:
-[stats.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/stats.R),
+[stats.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/stats.R)
   - time panel:
 [time.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/time.R),
 [timePlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timePlot.R),
 [timeTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timeTable.R),
-[timeTraits.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timeTraits.R),
+[timeTraits.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timeTraits.R)
   - contrast panel:
 [contrast.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrast.R),
 [contrastGroup.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastGroup.R),
 [contrastPlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastPlot.R),
 [contrastTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastTable.R),
 [contrastTime.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastTime.R),
-[contrastTrait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastTrait.R),
+[contrastTrait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastTrait.R)
 - non-app helpers:
 [foundrSetup.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundrSetup.R),
-[foundr_helpers.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr_helper.R),
+[foundr_helpers.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr_helper.R)
 
 
 ## qtl2shiny: localized QTL analysis and visualization
