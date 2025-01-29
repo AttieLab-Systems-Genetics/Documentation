@@ -36,17 +36,24 @@ The file `config.yml` has all the setup points to all needed files and folders.
         - <https://github.com/AttieLab-Systems-Genetics/qtl_mapping>
 3. Run QTL scan wrapper
 [QTL_scan_wrapper.R](https://github.com/AttieLab-Systems-Genetics/qtl_mapping/blob/main/scripts/latest/QTL_scan_wrapper.R)
-from your local copy.
+from your local copy. [Initial `$` is `bash` or `zsh` prompt.]
 
 ```
-cd ~/qtl_mapping/scripts/latest
-./QTL_scan_wrapper.R --config="/mnt/rdrive/mkeller3/General/QTL_mapping_KM/DO_diet_GRCm39/cpep_and_ins/config.yml`
+$ cd ~/qtl_mapping/scripts/latest
+$ ./QTL_scan_wrapper.R --config="/mnt/rdrive/mkeller3/General/QTL_mapping_KM/DO_diet_GRCm39/cpep_and_ins/config.yml`
 ```
 
 or in one line
 
 ```
-~/qtl_mapping/scripts/latest/QTL_scan_wrapper.R --config="/mnt/rdrive/mkeller3/General/QTL_mapping_KM/DO_diet_GRCm39/cpep_and_ins/config.yml`
+$ ~/qtl_mapping/scripts/latest/QTL_scan_wrapper.R --config="/mnt/rdrive/mkeller3/General/QTL_mapping_KM/DO_diet_GRCm39/cpep_and_ins/config.yml`
+```
+
+You can also place this command in a file, say `wrapper.sh` and execute it.
+That way, you could potentially put several runs in this one file.
+
+```
+$ bash wrapper.sh
 ```
 
 ## Symbolic Links and Home Directory
