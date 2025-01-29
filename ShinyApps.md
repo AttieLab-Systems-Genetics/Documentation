@@ -128,7 +128,6 @@ across shiny modules to share inputs without duplication of code.
 - app infrastructure:
 [about.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/about.R),
 [foundr.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr.R),
-[panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R),
 [entry.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/entry.R),
 [download.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/download.R),
 - plots:
@@ -139,7 +138,9 @@ across shiny modules to share inputs without duplication of code.
 [mainPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/mainPar.R),
 [panelPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panelPar.R),
 [plotPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/plotPar.R),
-- trait panel:
+- panels:
+[panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R),
+  - trait panel:
 [trait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/trait.R),
 [traitNames.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitNames.R),
 [traitOrder.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitOrder.R),
@@ -148,14 +149,14 @@ across shiny modules to share inputs without duplication of code.
 [traitTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitTable.R),
 [corPlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/corPlot.R),
 [corTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/corTable.R),
-- stats panel:
+  - stats panel:
 [stats.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/stats.R),
-- time panel:
+  - time panel:
 [time.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/time.R),
 [timePlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timePlot.R),
 [timeTable.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timeTable.R),
 [timeTraits.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/timeTraits.R),
-- contrast panel:
+  - contrast panel:
 [contrast.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrast.R),
 [contrastGroup.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastGroup.R),
 [contrastPlot.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/contrastPlot.R),
