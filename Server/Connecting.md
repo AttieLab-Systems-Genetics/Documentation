@@ -86,6 +86,11 @@ formals(quit)$save <- formals(q)$save <- "no"
 ### Installing R packages you need for QTL work
 
 Right now, the basic collection of R packages are installed on the Attie server.
+You will need the following packages (at least, plus their dependencies) installed:
+
+- `qtl2`
+- `qtl2convert`
+
 The default library paths can be found in R via the command
 
 ```
@@ -104,7 +109,7 @@ For now, each user must add their own verions of `qtl2` or other packages.
 This 
 
 ```
-> install.packages("qtl2")
+> install.packages("qtl2","qtl2convert)
 Installing package into ‘~/R/x86_64-pc-linux-gnu-library/4.4’
 (as ‘lib’ is unspecified)
 also installing the dependencies ...
@@ -138,5 +143,5 @@ You can examine the contents of your local library with `ls`.
 
 ```
 $ ls ~/R/x86_64-pc-linux-gnu-library/4.4/
-qtl2  RcppEigen  RSQLite
+qtl  qtl2  qtl2convert  RcppEigen  RSQLite
 ```
