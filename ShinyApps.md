@@ -27,19 +27,56 @@ Yandell's key working repos that inform this document are
 - [Learning about Shiny Modules](https://github.com/byandell/shiny_module)
 
 These are listed in reverse chronological order.
-That is, Yandell's most recent work is in the
-[geyser](https://github.com/byandell/geyser)
-repo, using a simple app (Old Faithful) to illustrate the components of
-a shiny app, and how to build up more complicated apps using shiny modules.
-It starts with creating one shiny module around this classic example,
-and builds out to a half-dozen shiny modules in the
+
+## Geyser: Modular Concepts and Construction
+
+Yandell's most repo,
+[geyser](https://github.com/byandell/geyser),
+uses a simple app (Old Faithful) to illustrate the components of
+a shiny app, and how to develop more complicated apps using shiny modules.
+It starts with 
+[building one shiny module](https://github.com/byandell/geyser/tree/main/inst/build_module)
+around this classic example,
+and then
+[connects multiple modules](https://github.com/byandell/geyser/tree/main/inst/connect_modules)
+that organize the logic (server) and app view (ui) in various ways.
+About a half-dozen shiny modules in
 [geyser/R](https://github.com/byandell/geyser/tree/main/R)
-folder,
-which can be interconnected to build more complicated apps, such as
-[geyser/inst/connect_modules/app.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/app.R)
-deployed as
-<https://connect.doit.wisc.edu/geyserDemo/>.
-For more information, see the
+comprise the geyser R package, or library. These are of three types:
+
+- plots:
+[hist.R](https://github.com/byandell/geyser/blob/main/R/hist.R),
+[gghist.R](https://github.com/byandell/geyser/blob/main/R/gghist.R),
+[ggpoint.R](https://github.com/byandell/geyser/blob/main/R/ggpoint.R)
+- data:
+data.R, datasets.R
+[data.R](https://github.com/byandell/geyser/blob/main/R/data.R),
+[datasets.R](https://github.com/byandell/geyser/blob/main/R/datasets.R)
+- connections:
+rows.R, wrapper.R, switch.R
+[rows.R](https://github.com/byandell/geyser/blob/main/R/rows.R),
+[wrapper.R](https://github.com/byandell/geyser/blob/main/R/wrappeer.R),
+[switch.R](https://github.com/byandell/geyser/blob/main/R/switch.R)
+
+In addition, in the
+[connects_modules](https://github.com/byandell/geyser/tree/main/inst/connect_modules)
+folder, there are multiple apps that illustrate different concepts of connecting modules:
+
+- modules over pages:
+[appPages.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appPages.R)
+- modules in rows and columns:
+[appRows.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appRows.R),
+[appRowsModule.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appRowsModule.R)
+- reuse of one module:
+[appTwin.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appTwin.R),
+[appDupe.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appDupe.R),
+[appFlip.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/appFlip.R)
+- modules within modules:
+[app.R](https://github.com/byandell/geyser/blob/main/inst/connect_modules/app.R)
+(see deployed
+[Geyser Demo](https://connect.doit.wisc.edu/geyserDemo))
+
+For more information that puts these in context, see the
 [Geyser Shiny Modules](https://connect.doit.wisc.edu/geyserShinyModules)
 slide deck, as well as the 
 [11 Dec 2024 Presentation](https://drive.google.com/file/d/1BGSIhihpBc-2TfRza5RGeXBCB55EC6-l).
