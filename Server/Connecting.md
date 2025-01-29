@@ -74,7 +74,7 @@ in your home directory with the following one line:
 formals(quit)$save <- formals(q)$save <- "no"
 ```
 
-### Installin R packages need for QTL work
+### Installing R packages you need for QTL work
 
 Right now, the basic collection of R packages are installed on the Attie server.
 The default library paths can be found in R via the command
