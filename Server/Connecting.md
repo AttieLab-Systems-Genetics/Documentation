@@ -9,7 +9,7 @@
 
 ## Get access to the manifest group
 
-You will need to be added to the **BIOC-adattie-docker-admins** group. To do the please ask a current user to add you to the manifest [here](https://manifest.services.wisc.edu/Group/Index/1b018a1e44f5492b9af50a28fb75c2ac).
+You will need to be added to the **BIOC-adattie-docker-admins** group. Please ask a current user to add you to the manifest [here](https://manifest.services.wisc.edu/Group/Index/1b018a1e44f5492b9af50a28fb75c2ac).
 
 ## Checking connection to network
 To connect to the server, you must be on the biochem network in person or using the VPN.
