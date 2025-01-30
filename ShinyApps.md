@@ -326,6 +326,16 @@ See screenshots and guides:
 - [Developer Guide](https://github.com/byandell/qtl2shiny/blob/master/vignettes/DeveloperGuide.Rmd)
 - [Data Preparation](https://github.com/byandell/qtl2shiny/blob/master/vignettes/qtl2shinyData.Rmd)
 
+Finally, `qtl2shiny` depends on several other R packages
+(some in CRAN, all in GitHub):
+
+- [qtl2](https://cran.r-project.org/package=qtl2)
+- [qtl2ggplot2](https://cran.r-project.org/package=qtl2ggplot)
+- [qtl2fst](https://cran.r-project.org/package=qtl2fst)
+- [qtl2pattern](https://cran.r-project.org/package=qtl2pattern)
+- [qtl2mediate](https://github.com/byandell/qtl2mediate)
+- [intermediate](https://github.com/byandell/intermediate)
+
 ## shiny_module: learning about reactivity
 
 Finally, the
