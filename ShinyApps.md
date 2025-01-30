@@ -171,13 +171,32 @@ across shiny modules to share inputs without duplication of code.
 [foundrSetup.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundrSetup.R),
 [foundr_helpers.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr_helper.R)
 
+The `foundr` module draws together the other modules into the app to be deployed
+through the panel modules `contrast`, `stats`, `time`, `trait`.
+The `panel` module is just used for testing the panels, but is not part of the `foundr` app.
 Several of these modules are reused.
 For instance,
-`traitNames` is used in all of the other `trait` modules once or twice,
 `contrastPlot` is used in `contrastTrait` and `stats`,
-`download` is used in each panel module
-(`trait`, `stats`, `time`, `contrasts`),
-and the parameter and plot modules are used repeatedly.
+`timePlot` is used in `time` and `contrast`,
+`traitOrder` is used in `trait` and `time`,
+and the parameter modules (`mainPar`, `panelPar`, `plotPar`) are used repeatedly.
+The app function of each module might use other modules (notably parameter and download modules)
+to test that module.
+Here is the hierarchy of what modules are used directly by other modules:
+
+- foundr: mainPar, about, contrast, download, entry, stats, time, trait
+- contrast: panelPar, contrastGroup, contrastTime, contrastTable(3), contrastTrait, timePlot
+    - contrastGroup: contrastPlot
+    - contrastPlot: plotPar, biplot, dotplot, volcano
+    - contrastTable: traitOrder
+    - contrastTime: timeTraits
+    - contrastTrait: contrastPlot
+- stats: panelPar, contrastPlot
+- time: panelPar, timePlot, timeTable
+    - timeTable: timeTraits, traitOrder
+- trait: panelPar, corPlot, corTable, traitNames(2), traitOrder, traitPairs, traitSolos, traitTable
+- biplot: mainPar, panelPar, plotPar, contrastTable
+- panel: mainPar, contrast, stats, time, trait
 
 The parameter modules scope inputs at different levels of the app.
 For instance, `mainPar` parameters (`dataset`, `order`, `height`) are common across many modules,
