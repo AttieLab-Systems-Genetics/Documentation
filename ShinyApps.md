@@ -319,7 +319,7 @@ The `Main` module performs setup and then invokes the two primary modules,
 `Haplo` and `Diplo`, for haplotype and diplotype.
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
-See screenshots cited above for more detail.
+See screenshots and guides:
 
 - [Screen Shots](http://pages.stat.wisc.edu/~yandell/software/qtl2shiny/screenshots.html)
 - [User Guide](https://github.com/byandell/qtl2shiny/blob/master/vignettes/UserGuide.Rmd)
