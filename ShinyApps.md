@@ -353,8 +353,8 @@ Below are the branch links:
 [geneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneRegion.R),
 [geneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneExon.R)
 
-The `Main` module performs setup and then invokes the two primary modules,
-`Haplo` and `Diplo`, for haplotype and diplotype.
+The `qtl2ain` module performs setup and then invokes the two primary modules,
+`haplo` and `diplo`, for haplotype and diplotype.
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
 See screenshots and guides:
