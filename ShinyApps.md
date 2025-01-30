@@ -239,15 +239,20 @@ The hierarchy of module calling is shown here:
 [Project](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProject.R),
 [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R),
 [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R)
-- [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
-[PhenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenoPlot.R)
-- [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
-[Hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHotspot.R)
 - [Haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHaplo.R):
 [Probs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProbs.R),
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
 [ScanCoef](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyScanCoef.R),
 [Mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMediate.R)
+- [Diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDiplo.R):
+[PairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPairProbs.R),
+[SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
+[Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R),
+[Allele](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyAllele.R)
+- [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
+[PhenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenoPlot.R)
+- [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
+[Hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHotspot.R)
 - [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R):
 [SNPProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPProbs.R),
 [SNPPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPattern.R),
@@ -261,11 +266,6 @@ The hierarchy of module calling is shown here:
 [GeneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyGeneExon.R)
 - [Mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMediate.R):
 [Scatter](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyScatter.R)
-- [Diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDiplo.R):
-[PairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPairProbs.R),
-[SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
-[Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R),
-[Allele](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyAllele.R)
 
 The `Main` module performs setup and then invokes the two primary modules,
 `Haplo` and `Diplo`, for haplotype and diplotype.
