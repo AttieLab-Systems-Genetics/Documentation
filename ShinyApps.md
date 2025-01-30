@@ -186,7 +186,7 @@ The app function of each module might use other modules (notably parameter and d
 to test that module.
 Here is the hierarchy of what modules are used directly by other modules:
 
-- foundr: mainPar, about, contrast, download, entry, stats, time, trait
+- foundr: mainPar, about, download, entry, contrast, stats, time, trait
 - contrast: panelPar, contrastGroup, contrastTime, contrastTable(3), contrastTrait, timePlot
     - contrastGroup: contrastPlot
     - contrastPlot: plotPar, biplot, dotplot, volcano
