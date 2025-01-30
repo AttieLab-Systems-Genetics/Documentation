@@ -215,6 +215,54 @@ Having this many modules was initially confusing, but they enable a developer
 to concentrate app improvement on isolated parts of the app, using each module's app
 function to do unit testing.
 
+Another important aspect of this project was separating out analysis and visualization
+code from the reactive (shiny) code into a separate package.
+In fact, this app started with the
+[foundr](https://github.com/AttieLab-Systems-Genetics/foundr)
+repo, with shiny code mixed in.
+The
+[foundr v1.4 branch](https://github.com/byandell-sysgen/foundr/tree/v1.4)
+contains the earlier version from Summer 2024,
+where shiny, analysis and viz code are mixed together.
+The current main branch is complicated enough without shiny code,
+having ggplot2-based viz code and analytical computations.
+In addition, it has utility routines;
+helper routines used by `foundrShiny` modules but not needed for
+`foundr` routines remain in
+[foundrShiny/R/foundr_helpers.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr_helpers.R)
+as mentioned earlier.
+Additional helpers from
+[foundr](https://github.com/AttieLab-Systems-Genetics/foundr)
+are organized by function
+
+- ploting
+    - ggplot_bestcor,
+ggplot_conditionContrasts,
+ggplot_traitPairs,
+ggplot_traitSolos
+ggplot_traitTimes
+- utilities
+    - CCcolors,
+is_bestcor,
+keptDatatraits,
+subset_trait_names,
+timetraits,
+timetraitsall,
+unite_datatraits
+- analysis
+    - bestcor,
+conditionContrasts,
+eigen_contrast,
+eigen_traits,
+traitPairs,
+traitSolos,
+traitTimes
+- summary
+    - summary_bestcor,
+summary_conditionContrasts,
+summary_strainstats
+
+
 ## qtl2shiny: localized QTL analysis and visualization
 
 The
@@ -272,6 +320,11 @@ The `Main` module performs setup and then invokes the two primary modules,
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
 See screenshots cited above for more detail.
+
+- [Screen Shots](http://pages.stat.wisc.edu/~yandell/software/qtl2shiny/screenshots.html)
+- [User Guide](https://github.com/byandell/qtl2shiny/blob/master/vignettes/UserGuide.Rmd)
+- [Developer Guide](https://github.com/byandell/qtl2shiny/blob/master/vignettes/DeveloperGuide.Rmd)
+- [Data Preparation](https://github.com/byandell/qtl2shiny/blob/master/vignettes/qtl2shinyData.Rmd)
 
 ## shiny_module: learning about reactivity
 
