@@ -180,6 +180,8 @@ For instance,
 `timePlot` is used in `time` and `contrast`,
 `traitOrder` is used in `trait` and `time`,
 and the parameter modules (`mainPar`, `panelPar`, `plotPar`) are used repeatedly.
+The `traitNames` and `contrastTable` modules are used multiple times in the
+`trait` and `contrast` panel modules, respectively.
 The app function of each module might use other modules (notably parameter and download modules)
 to test that module.
 Here is the hierarchy of what modules are used directly by other modules:
