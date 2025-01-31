@@ -365,7 +365,9 @@ Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
 Download operations are currently duplicated in multiple modules,
 but should be pulled out as was done for `foundShiny`,
-ideally using that same `download` module.
+ideally using that same
+[download.R](https://github.com/AttieLab-Systems-Genetics/foundrShiny/blob/main/R/download.R)
+module.
 See screenshots and guides:
 
 - [Screen Shots](http://pages.stat.wisc.edu/~yandell/software/qtl2shiny/screenshots.html)
