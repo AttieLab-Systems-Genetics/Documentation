@@ -276,7 +276,8 @@ It performs allele-based LOD scans, SNP-based association mapping,
 [SNP distribution pattern](https://smcclatchy.github.io/mapping/12-snp-assoc/)
 analysis,
 and mediation.
-This work was never published.
+This work was never published in a peer-reviewed journal, only as a set of packages
+in CRAN and GitHub.
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
