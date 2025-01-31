@@ -328,6 +328,10 @@ Below are the branch links:
 [project](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/project.R),
 [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R),
 [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R)
+    - [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R):
+[phenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoPlot.R)
+    - [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R):
+[hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/hotspotServer.R)
 - [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haplo.R):
 [probs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
@@ -337,19 +341,15 @@ Below are the branch links:
 [probsPair](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
 [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R)
-- [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R):
-[phenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoPlot.R)
-- [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R):
-[hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/hotspotServer.R)
-- [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R):
+    - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R):
 [allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/allele.R)
 - [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R):
 [probsSNP](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R),
 [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R)
-- [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R):
+    - [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R):
 [snpFeature](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpFeature.R)
-- [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R):
+    - [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R):
 [snpSum](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSum.R),
 [snpPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPlot.R),
 [geneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneRegion.R),
