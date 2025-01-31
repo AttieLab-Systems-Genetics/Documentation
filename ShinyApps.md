@@ -146,7 +146,7 @@ across shiny modules to share inputs without duplication of code.
 see
 [panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R)
 or
-[foundr.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr.R),
+[foundr.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr.R)
   - trait panel:
 [trait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/trait.R),
 [traitNames.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitNames.R),
