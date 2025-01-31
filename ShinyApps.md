@@ -338,11 +338,11 @@ Below are the branch links:
 [scanCoef](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/scanCoef.R),
 [mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mediate.R)
 - [diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diplo.R):
-[probsPair](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
+[pairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
 [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R)
   - [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R):
-[probsSNP](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
+[snpProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R),
 [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R)
     - [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R):
