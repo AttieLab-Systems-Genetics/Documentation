@@ -143,7 +143,10 @@ across shiny modules to share inputs without duplication of code.
 [panelPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panelPar.R),
 [plotPar.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/plotPar.R)
 - panels:
+see
 [panel.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/panel.R)
+or
+[foundr.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/foundr.R),
   - trait panel:
 [trait.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/trait.R),
 [traitNames.R](https://github.com/byandell-sysgen/foundrShiny/blob/main/R/traitNames.R),
@@ -173,7 +176,8 @@ across shiny modules to share inputs without duplication of code.
 
 The `foundr` module draws together the other modules into the app to be deployed
 through the panel modules `contrast`, `stats`, `time`, `trait`.
-The `panel` module is just used for testing the panels, but is not part of the `foundr` app.
+The `panel` module is just used for testing the panels, but is not part of the `foundr` app;
+it could be modified to pull out the panel infrastructure from `foundr`.
 Several of these modules are reused.
 For instance,
 `contrastPlot` is used in `contrastTrait` and `stats`,
@@ -187,18 +191,18 @@ to test that module.
 Here is the hierarchy of what modules are used directly by other modules:
 
 - foundr: mainPar, about, download, entry, contrast, stats, time, trait
+  - panel: mainPar, contrast, stats, time, trait
 - contrast: panelPar, contrastGroup, contrastTime, contrastTable(3), contrastTrait, timePlot
-    - contrastGroup: contrastPlot
-    - contrastPlot: plotPar, biplot, dotplot, volcano
-    - contrastTable: traitOrder
-    - contrastTime: timeTraits
-    - contrastTrait: contrastPlot
+  - contrastGroup: contrastPlot
+  - contrastPlot: plotPar, biplot, dotplot, volcano
+    - biplot: mainPar, panelPar, plotPar, contrastTable
+  - contrastTable: traitOrder
+  - contrastTime: timeTraits
+  - contrastTrait: contrastPlot
 - stats: panelPar, contrastPlot
 - time: panelPar, timePlot, timeTable
-    - timeTable: timeTraits, traitOrder
+  - timeTable: timeTraits, traitOrder
 - trait: panelPar, corPlot, corTable, traitNames(2), traitOrder, traitPairs, traitSolos, traitTable
-- biplot: mainPar, panelPar, plotPar, contrastTable
-- panel: mainPar, contrast, stats, time, trait
 
 The parameter modules scope inputs at different levels of the app.
 For instance, `mainPar` parameters (`dataset`, `order`, `height`) are common across many modules,
