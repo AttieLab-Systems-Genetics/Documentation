@@ -289,9 +289,9 @@ The hierarchy of module calling is shown in the following figure and file layout
 [Project](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProject.R),
 [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R),
 [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R)
-    - [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
+  - [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
 [PhenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenoPlot.R)
-    - [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
+  - [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
 [Hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHotspot.R)
 - [Haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHaplo.R):
 [Probs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProbs.R),
@@ -302,9 +302,7 @@ The hierarchy of module calling is shown in the following figure and file layout
 [PairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPairProbs.R),
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
 [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R)
-    - [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R):
-[Allele](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyAllele.R)
-- [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R):
+  - [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R):
 [SNPProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPProbs.R),
 [SNPPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPattern.R),
 [SNPGene](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPGene.R)
@@ -315,6 +313,8 @@ The hierarchy of module calling is shown in the following figure and file layout
 [SNPPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPlot.R),
 [GeneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyGeneRegion.R),
 [GeneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyGeneExon.R)
+  - [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R):
+[Allele](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyAllele.R)
 
 The above table is based on the `master` branch;
 the `byandell-refactor` branch is modernizing this code.
@@ -328,9 +328,9 @@ Below are the branch links:
 [project](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/project.R),
 [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R),
 [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R)
-    - [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R):
+  - [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R):
 [phenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoPlot.R)
-    - [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R):
+  - [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R):
 [hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/hotspotServer.R)
 - [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haplo.R):
 [probs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
@@ -341,9 +341,7 @@ Below are the branch links:
 [probsPair](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
 [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R)
-    - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R):
-[allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/allele.R)
-- [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R):
+  - [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R):
 [probsSNP](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
 [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R),
 [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R)
@@ -354,6 +352,8 @@ Below are the branch links:
 [snpPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPlot.R),
 [geneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneRegion.R),
 [geneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneExon.R)
+  - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R):
+[allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/allele.R)
 
 The `qtl2ain` module performs setup and then invokes the two primary modules,
 `haplo` and `diplo`, for haplotype and diplotype.
