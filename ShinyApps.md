@@ -277,7 +277,9 @@ server and UI functions, and they do not have app functions.
 Nevertheless, they have many features that are being considered in current development;
 these could be usefully retooled for a modernized qtl2 shiny app.
 
-The hierarchy of module calling is shown here:
+The hierarchy of module calling is shown in the following figure and file layout here:
+
+![](images/qtl2shiny.png)
 
 - [Main](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMain.R):
 [Setup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySetup.R),
@@ -287,6 +289,10 @@ The hierarchy of module calling is shown here:
 [Project](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProject.R),
 [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R),
 [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R)
+    - [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
+[PhenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenoPlot.R)
+    - [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
+[Hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHotspot.R)
 - [Haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHaplo.R):
 [Probs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyProbs.R),
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
@@ -296,19 +302,15 @@ The hierarchy of module calling is shown here:
 [PairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPairProbs.R),
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
 [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R)
-- [Phenos](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenos.R):
-[PhenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPhenoPlot.R)
-- [Peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPeaks.R):
-[Hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHotspot.R)
-- [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R):
+    - [Pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPattern.R):
 [Allele](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyAllele.R)
 - [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R):
 [SNPProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPProbs.R),
 [SNPPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPattern.R),
 [SNPGene](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPGene.R)
-- [SNPPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPattern.R):
+    - [SNPPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPattern.R):
 [SNPFeature](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPFeature.R)
-- [SNPGene](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPGene.R):
+    - [SNPGene](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPGene.R):
 [SNPSum](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSum.R),
 [SNPPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPPlot.R),
 [GeneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyGeneRegion.R),
