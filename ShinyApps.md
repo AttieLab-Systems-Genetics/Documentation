@@ -271,8 +271,17 @@ summary_strainstats
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
-repo was designed about a decade ago,
-and is not currently working.
+app was designed to investigate local QTL, within 1-2Mb of a peak.
+It performs allele-based LOD scans, SNP-based association mapping,
+[SNP distribution pattern](https://smcclatchy.github.io/mapping/12-snp-assoc/)
+analysis,
+and mediation.
+This work was never published.
+
+The
+[qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
+repo was designed about a decade ago.
+It is currently working on a laptop with data organized in a particular fashion.
 However, one can view screenshots and the User's Guide.
 This repo has ~25 shiny modules in
 [qtl2shiny/R](https://github.com/byandell-sysgen/qtl2shiny/tree/main/R),
