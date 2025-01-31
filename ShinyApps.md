@@ -194,11 +194,11 @@ Here is the hierarchy of what modules are used directly by other modules:
   - panel: mainPar, contrast, stats, time, trait
 - contrast: panelPar, contrastGroup, contrastTime, contrastTable(3), contrastTrait, timePlot
   - contrastGroup: contrastPlot
-  - contrastPlot: plotPar, biplot, dotplot, volcano
-    - biplot: mainPar, panelPar, plotPar, contrastTable
   - contrastTable: traitOrder
   - contrastTime: timeTraits
   - contrastTrait: contrastPlot
+  - contrastPlot: plotPar, biplot, dotplot, volcano
+    - biplot: mainPar, panelPar, plotPar, contrastTable
 - stats: panelPar, contrastPlot
 - time: panelPar, timePlot, timeTable
   - timeTable: timeTraits, traitOrder
