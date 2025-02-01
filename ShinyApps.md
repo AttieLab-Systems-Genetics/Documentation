@@ -380,7 +380,7 @@ Below are the branch links:
 
 The `main` module calls `dash`, which then invokes `setup`
 and the two primary modules,
-`haplo` and `diplo`, for haplotype and diplotype.
+`haplo` and `diplo`, for haplotype and diplotype analyses.
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
 Download operations are currently duplicated in multiple modules,
