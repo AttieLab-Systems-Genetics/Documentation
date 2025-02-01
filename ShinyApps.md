@@ -312,6 +312,8 @@ The hierarchy of module calling is shown in the following figure and file layout
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
 [ScanCoef](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyScanCoef.R),
 [Mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMediate.R)
+  - [Mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMediate.R):
+[Triad](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyTriad.R)
 - [Diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDiplo.R):
 [PairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyPairProbs.R),
 [SNPSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySNPSetup.R),
@@ -334,40 +336,42 @@ The above table is based on the `master` branch;
 the `byandell-refactor` branch is modernizing this code.
 Below are the branch links:
 
-- [qtl2main](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2main.R):
-[qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setup.R),
-[haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haplo.R),
-[diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diplo.R)
-- [qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setup.R):
-[project](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/project.R),
-[pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R),
-[peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R)
-  - [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pheno.R):
-[phenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoPlot.R)
-  - [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaks.R):
+- [qtl2main](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2mainServer.R):
+[qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setupServer.R),
+[haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haploServer.R),
+[diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diploServer.R)
+- [qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setupServer.R):
+[project](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/projectServer.R),
+[pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoServer.R),
+[peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaksServer.R)
+  - [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoServer.R):
+[phenoPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoPlotServer.R)
+  - [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaksServer.R):
 [hotspot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/hotspotServer.R)
-- [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haplo.R):
-[probs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
-[snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
-[scanCoef](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/scanCoef.R),
-[mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mediate.R)
-- [diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diplo.R):
-[pairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
-[snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R),
-[pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R)
-  - [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetup.R):
-[snpProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probs.R),
-[snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R),
-[snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R)
-    - [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPattern.R):
-[snpFeature](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpFeature.R)
-    - [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGene.R):
-[snpSum](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSum.R),
-[snpPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPlot.R),
-[geneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneRegion.R),
-[geneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneExon.R)
-  - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/pattern.R):
-[allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/allele.R)
+- [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haploServer.R):
+[probs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probsServer.R),
+[snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetupServer.R),
+[scanCoef](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/scanCoefServer.R),
+[mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mediateServer.R)
+  - [mediate](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mediateServer.R):
+[triad](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/triadServer.R)
+- [diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diploServer.R):
+[pairProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probsServer.R),
+[snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetupServer.R),
+[pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/patternServer.R)
+  - [snpSetup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSetupServer.R):
+[snpProbs](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/probsServer.R),
+[snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPatternServer.R),
+[snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGeneServer.R)
+    - [snpPattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPatternServer.R):
+[snpFeature](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpFeatureServer.R)
+    - [snpGene](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpGeneServer.R):
+[snpSum](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpSumServer.R),
+[snpPlot](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/snpPlotServer.R),
+[geneRegion](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneRegionServer.R),
+[geneExon](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/geneExonServer.R)
+  - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/patternServer.R):
+[allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/alleleServer.R)
 
 The `qtl2main` module calls `qtl2setup` and then invokes the two primary modules,
 `haplo` and `diplo`, for haplotype and diplotype.
