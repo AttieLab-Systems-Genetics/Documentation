@@ -291,7 +291,8 @@ server and UI functions, and they do not have app functions.
 Nevertheless, they have many features that are being considered in current development;
 these could be usefully retooled for a modernized qtl2 shiny app.
 
-The hierarchy of module calling is shown in the following figure and file layout here:
+The hierarchy of module calling is approximately shown in the following figure
+(with some missing links) and file layout here:
 
 ![](images/qtl2shiny.png)
 
