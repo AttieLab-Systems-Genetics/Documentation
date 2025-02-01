@@ -383,6 +383,9 @@ and the two primary modules,
 `haplo` and `diplo`, for haplotype and diplotype analyses.
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
+Some shiny technology is older--would be good to switch from
+[shinydashboard to bslib](https://shiny.posit.co/blog/posts/bslib-dashboards/)--and
+more modularity is possible.
 Download operations are currently duplicated in multiple modules,
 but should be pulled out as was done for `foundShiny`,
 ideally using that same
