@@ -296,6 +296,8 @@ The hierarchy of module calling is shown in the following figure and file layout
 ![](images/qtl2shiny.png)
 
 - [Main](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyMain.R):
+[Dash](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDash.R),
+  - [Dash](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDash.R):
 [Setup](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinySetup.R),
 [Haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyHaplo.R),
 [Diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/master/R/shinyDiplo.R)
@@ -336,7 +338,9 @@ The above table is based on the `master` branch;
 the `byandell-refactor` branch is modernizing this code.
 Below are the branch links:
 
-- [qtl2main](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2mainServer.R):
+- [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2shinyServer.R):
+[qtl2dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2dashServer.R)
+  - [qtl2dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2dashServer.R):
 [qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setupServer.R),
 [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haploServer.R),
 [diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diploServer.R)
@@ -373,7 +377,8 @@ Below are the branch links:
   - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/patternServer.R):
 [allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/alleleServer.R)
 
-The `qtl2main` module calls `qtl2setup` and then invokes the two primary modules,
+The `qtl2shiny` module calls `qtl2dash`, which then invokes `qtl2setup`
+and the two primary modules,
 `haplo` and `diplo`, for haplotype and diplotype.
 Each of those call multiple other modules.
 The app has a side panel where switches among different types of analyses and plots are performed.
