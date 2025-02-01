@@ -339,7 +339,7 @@ the `byandell-refactor` branch is modernizing this code.
 Below are the branch links:
 
 - [main](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mainServer.R):
-dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dashServer.R)
+[dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dashServer.R)
   - [dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dashServer.R):
 [setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/setupServer.R),
 [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haploServer.R),
@@ -377,7 +377,7 @@ dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dash
   - [pattern](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/patternServer.R):
 [allele](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/alleleServer.R)
 
-The `qtl2shiny` module calls `qtl2dash`, which then invokes `qtl2setup`
+The `main` module calls `dash`, which then invokes `setup`
 and the two primary modules,
 `haplo` and `diplo`, for haplotype and diplotype.
 Each of those call multiple other modules.
