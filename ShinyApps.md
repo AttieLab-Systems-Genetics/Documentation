@@ -338,13 +338,13 @@ The above table is based on the `master` branch;
 the `byandell-refactor` branch is modernizing this code.
 Below are the branch links:
 
-- [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2shinyServer.R):
-[qtl2dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2dashServer.R)
-  - [qtl2dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2dashServer.R):
-[qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setupServer.R),
+- [main](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/mainServer.R):
+dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dashServer.R)
+  - [dash](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/dashServer.R):
+[setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/setupServer.R),
 [haplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/haploServer.R),
 [diplo](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/diploServer.R)
-- [qtl2setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/qtl2setupServer.R):
+- [setup](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/setupServer.R):
 [project](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/projectServer.R),
 [pheno](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/phenoServer.R),
 [peaks](https://github.com/byandell-sysgen/qtl2shiny/blob/byandell-refactor/R/peaksServer.R)
