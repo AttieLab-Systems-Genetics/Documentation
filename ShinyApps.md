@@ -48,14 +48,13 @@ It is organized as a package with multiple small shiny modules, each with its ow
 The goal is to make this straightforward and easy enough for team members to develop
 their own modules as the tools evolve.
 
-The setup and analysis files are:
+The package has several analysis files used by shiny modules:
 
-- <qtlSetup.R>: global object and library setup; source analysis functions
-    - [trait_scan.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/trait_scan.R)
-    - [QTL_plot_visualizer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/QTL_plot_visualizer.R)
-    - [peak_finder.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/peak_finder.R)
+- [trait_scan.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/trait_scan.R)
+- [QTL_plot_visualizer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/QTL_plot_visualizer.R)
+- [peak_finder.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/peak_finder.R)
 
-Shiny modules in hierarchy of calling:
+The shiny modules in hierarchy of calling are:
 
 - [qtlServer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/qtlServer.R): QTL app
   - [mainParServer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/mainParServer.R): main parameters
@@ -66,7 +65,7 @@ Shiny modules in hierarchy of calling:
 The deployable app
 [app.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/inst/shinyApp/app.R)
 sources the file
-[qtlServer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/qtlServer.R)
+[qtlSetup.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/inst/shinyApp/qtlSetup.R)
 to load data files and then calls the 
 [qtlServer.R](https://github.com/AttieLab-Systems-Genetics/qtlApp/blob/main/R/qtlServer.R).
 
