@@ -24,8 +24,7 @@ See also
 [Modularizing Shiny app code](https://shiny.rstudio.com/articles/modules.html).
 Yandell's key working repos that inform this document are 
 
-- [About
-Shiny app for QTL visualization](https://github.com/AttieLab-Systems-Genetics/qtlApp) 
+- [Shiny app for QTL visualization](https://github.com/AttieLab-Systems-Genetics/qtlApp) 
 - [Shiny Geyser App with and without Modules](https://github.com/byandell/geyser)
 - [Founder Shiny App](https://github.com/AttieLab-Systems-Genetics/foundrShiny)
 - [Shiny app for R/qtl2](https://github.com/byandell-sysgen/qtl2shiny)
