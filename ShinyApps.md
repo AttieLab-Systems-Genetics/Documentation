@@ -30,13 +30,16 @@ Yandell's key working repos that inform this document are
 - [Shiny app for R/qtl2](https://github.com/byandell-sysgen/qtl2shiny)
 - [Learning about Shiny Modules](https://github.com/byandell/shiny_module)
 
-These are listed in reverse chronological order and described below
+Below are discussions in reverse chronological order of these repos:
 
 - [qtlApp: modular QTL visualization app](#qtlapp-modular-qtl-visualization-app)
 - [geyser: modular concepts and construction](#geyser-modular-concepts-and-construction)
 - [foundrShiny: pragmatic code reuse driven by collaborators](#foundrshiny-pragmatic-code-reuse-driven-by-collaborators)
 - [qtl2shiny: localized QTL analysis and visualization](#qtl2shiny-localized-qtl-analysis-and-visualization)
 - [shiny_module: learning about reactivity](#shiny_module-learning-about-reactivity)
+
+Additional links on R in general can be found at
+[R for Data Sciences](https://github.com/UW-Madison-DataScience/R_for_data_sciences).
 
 <hr>
 
