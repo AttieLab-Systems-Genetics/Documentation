@@ -15,6 +15,10 @@ which made the apps easier
 to use, understand and debug.
 These repos include some lessons learned that hopefully will
 help others as they design and evolve apps for this project.
+For those interested in comparing shiny apps built in R vs. python,
+there is a useful development in the
+[Shiny Geyser App](https://github.com/byandell/geyser)
+repo.
 
 The best reference for building shiny apps is
 [Mastering Shiny](https://mastering-shiny.org),
