@@ -33,10 +33,7 @@ Here's a breakdown of what each command can do:
 - `vmstat`: Shows virtual memory usage, CPU scheduling, and disk I/O. 
 - `df`: Displays disk space usage for mounted file systems. 
 - `du`: Estimates file and directory space usage. 
-- `lscpu`: Provides information about the CPU architecture. 
-- `lsblk`: Lists information about block devices. 
-- `lspci`: Displays information about PCI devices. 
-- `lsusb`: Lists USB devices connected to the system.
+- `lscpu`, `lsblk`, `lspci`, `lsusb`: Provide information about devices in or connected to the system.
 
 ### References
 
