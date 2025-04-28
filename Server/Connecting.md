@@ -25,8 +25,10 @@ Linux, the operating system of the server, has several helpful summaries of comp
 These commands provide insights into CPU usage, memory usage, disk space, and other system metrics. 
 Here's a breakdown of what each command can do:
 
-- `top` and `htop`: Provide real-time views of CPU and memory usage, process information, and more. htop is an interactive version of top with a more user-friendly interface.
-- `mpstat` and `sar`: Display CPU statistics, including user, system, and idle times. sar can also collect and save system activity information over time. 
+- `top` and `htop`: Provide real-time views of CPU and memory usage, process information, and more.
+`htop` is an interactive version of `top` with a more user-friendly interface.
+- `mpstat` and `sar`: Display CPU statistics, including user, system, and idle times.
+`sar` can also collect and save system activity information over time. 
 - `iostat`: Reports I/O statistics for devices and partitions, helping monitor disk performance. 
 - `vmstat`: Shows virtual memory usage, CPU scheduling, and disk I/O. 
 - `df`: Displays disk space usage for mounted file systems. 
