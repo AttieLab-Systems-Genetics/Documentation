@@ -1,7 +1,8 @@
 # Connecting Via SSH
 
 - [Get access to the manifest group](#get-access-to-the-manifest-group)
-- [Checking connection to network](#checking-connection-to-network)
+- [Check connection to network](#check-connection-to-network)
+- [Check server usage](#check-server-usage)
 - [Connect to the server](#connect-to-the-server)
 - [Connect your VS Code to server](#connect-your-vs-code-to-server)
 - [Connect your GitHub to server](#connect-your-github-to-server)
@@ -11,11 +12,36 @@
 
 You will need to be added to the **BIOC-adattie-docker-admins** group. Please ask a current user to add you to the manifest [here](https://manifest.services.wisc.edu/Group/Index/1b018a1e44f5492b9af50a28fb75c2ac).
 
-## Checking connection to network
+## Check connection to network
+
 To connect to the server, you must be on the biochem network in person or using the VPN.
 
 To ensure that you are connected, try pinging the server using:
 > ping -p 80 attie.diabetes.wisc.edu
+
+## Check server usage
+
+Linux, the operating system of the server, has several helpful summaries of computer usage.
+These commands provide insights into CPU usage, memory usage, disk space, and other system metrics. 
+Here's a breakdown of what each command can do:
+
+- `top` and `htop`: Provide real-time views of CPU and memory usage, process information, and more. htop is an interactive version of top with a more user-friendly interface.
+- `mpstat` and `sar`: Display CPU statistics, including user, system, and idle times. sar can also collect and save system activity information over time. 
+- `iostat`: Reports I/O statistics for devices and partitions, helping monitor disk performance. 
+- `vmstat`: Shows virtual memory usage, CPU scheduling, and disk I/O. 
+- `df`: Displays disk space usage for mounted file systems. 
+- `du`: Estimates file and directory space usage. 
+- `lscpu`: Provides information about the CPU architecture. 
+- `lsblk`: Lists information about block devices. 
+- `lspci`: Displays information about PCI devices. 
+- `lsusb`: Lists USB devices connected to the system.
+
+### References
+
+- [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners)
+- [Linux CPU Utilization - How To Check Linux CPU Usage](https://www.uptimia.com/learn/linux-cpu-utilization)
+- [How to Check Linux CPU Usage or Utilization](https://www.atlantic.net/vps-hosting/how-to-check-linux-cpu-usage-or-utilization/)
+- [60 essential Linux commands](https://www.hostinger.com/tutorials/linux-commands)
 
 ## Connect to the server
 
