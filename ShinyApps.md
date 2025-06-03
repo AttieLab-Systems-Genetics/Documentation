@@ -37,6 +37,7 @@ Yandell's key working repos that inform this document are
 
 Below are discussions in reverse chronological order of these repos:
 
+- [helperApps](https://github.com/byandell/helperApps/README.md)
 - [qtlApp: modular QTL visualization app](#qtlapp-modular-qtl-visualization-app)
 - [geyser: modular concepts and construction](#geyser-modular-concepts-and-construction)
 - [foundrShiny: pragmatic code reuse driven by collaborators](#foundrshiny-pragmatic-code-reuse-driven-by-collaborators)
