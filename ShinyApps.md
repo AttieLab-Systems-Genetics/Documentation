@@ -6,7 +6,7 @@ have subtle paradoxes caused by reactive elements.
 It is helpful to think carefully about how to modularize apps,
 much as we do with functions, so that we can debug piece by piece.
 
-R language apps developed by [Brian Yandell](https://github.com/byandell)
+R language apps developed with collaborators by [Brian Yandell](https://github.com/byandell)
 using the
 [Shiny](https://shiny.posit.co/)
 package
