@@ -10,7 +10,7 @@ R language apps developed with collaborators by [Brian Yandell](https://github.c
 using the
 [Shiny](https://shiny.posit.co/)
 package
-illustrate evoling design over time,
+illustrate in various ways an evoling design over time,
 which made the apps easier
 to use, understand and debug.
 These repos include some lessons learned that hopefully will
