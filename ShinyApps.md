@@ -1,7 +1,7 @@
 # Shiny Apps
 
 Shiny apps are cool, but they can get complicated, and frustrating to debug.
-Complicated apps--longer than 100-150 lines of code--can
+Complicated apps--longer than 500 lines of code--can
 have subtle paradoxes caused by reactive elements.
 It is helpful to think carefully about how to modularize apps,
 much as we do with functions, so that we can debug piece by piece.
