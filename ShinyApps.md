@@ -313,13 +313,15 @@ summary_strainstats
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
-app was designed to investigate local QTL, within 1-2Mb of a peak.
+app was designed to investigate local QTL, within a small (1-4Mb) region of a peak.
 It performs allele-based LOD scans, SNP-based association mapping,
 [SNP distribution pattern](https://smcclatchy.github.io/mapping/12-snp-assoc/)
 analysis,
 and mediation.
 This work was never published in a peer-reviewed journal, only as a set of packages
 in CRAN and GitHub.
+It is in the process of major redesign, which is documented in
+[Shiny Module Organization](https://github.com/byandell-sysgen/qtl2shiny/blob/master/inst/doc/module.md).
 
 The
 [qtl2shiny](https://github.com/byandell-sysgen/qtl2shiny)
