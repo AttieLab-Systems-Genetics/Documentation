@@ -4,5 +4,5 @@ Documentation for Software Activities
 - [FAQ](FAQ.md)
 - [Websites](Websites)
 - [Server](Server)
-- [ShinyApps](ShinyApps.md)
+- [ShinyApps](https://github.com/byandell/Documentation/blob/main/ShinyApps.md)
 - Troubleshooting QTLViewers
